@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "cy:run": "cypress run --browser chrome",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "cypress": "^16.1.1",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "cypress@16.1.1": true
+  }
+}
